@@ -10,9 +10,9 @@
 #create the new workspace name is prod and defaultly switched to the prod workspace
 
 - terraform workspace list  
-#default
-#dev
-#*prod
+default  
+dev  
+*prod  
 
 #present workspace indicates *   
 
