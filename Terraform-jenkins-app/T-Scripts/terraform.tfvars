@@ -1,6 +1,7 @@
-vpc_cidr_block = "10.0.0.0/16"
-subnet_1_cidr_block = "10.0.10.0/24"
-env_prefix = "dev"
-avail_zone = "ap-south-1a"
-my_ip = "0.0.0.0/0"
-instance_type = "t2.medium"
+region = "ap-south-1"
+ami_id = "ami-0f918f7e67a3323f0"
+key = "DevOps-key"
+itype = "t2.micro"
+iname = "My-Instance"
+sg_name = "SG-1"
+instance_count = 1
